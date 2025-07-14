@@ -1,0 +1,31 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: DrockLab Homepage
+headerStyle: boxed
+description: DrockLab
+
+background: 
+  image: https://4kwallpapers.com/images/wallpapers/star-wars-episode-2560x1080-22267.jpg
+ # blur: xs
+ # brightness: 90
+  opacity: 60
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+layout:
+  Networking:
+    icon: mdi-network-#FFFFFF
+  Infrastructure:
+    icon: mdi-server-#FFFFFF
+  Management:
+    icon: mdi-auto-fix-#FFFFFF
+  Monitoring:
+    icon: mdi-list-status-#FFFFFF
+  Smarthome:
+    icon: mdi-home-#FFFFFF
+  Security:
+    icon: mdi-shield-lock-#FFFFFF
